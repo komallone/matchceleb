@@ -25,7 +25,7 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/manifest.json">
+
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
@@ -50,9 +50,7 @@
 </head>
 
 <body>
-    <script data-ad-client="ca-pub-0601833367696437" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165052706-1"></script>
+    
     <script>
         window.dataLayer = window.dataLayer || [];
 
@@ -215,7 +213,7 @@
             // More API functions here:
             // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/image
             // the link to your model provided by Teachable Machine export panel
-            const URL = "https://teachablemachine.withgoogle.com/models/s9GQfl7Ew/";
+            const URL = "https://teachablemachine.withgoogle.com/models/2AnkPY1zb/";
             let model, webcam, labelContainer, maxPredictions;
             // Load the image model and setup the webcam
             async function init() {
@@ -242,7 +240,7 @@
                 var resultMessege;
                 switch (prediction[0].className) {
                     case "Class 1":
-                        resultMessege = "고광나무"
+                        resultMessege = "Robert De Niro"
                         break;
                     case "Class 2":
                         resultMessege = "꽃다지"
@@ -826,7 +824,7 @@
     <body>
 
       
- <div class="ad-banner">
+<!-- <div class="ad-banner">
             <ins class="kakao_ad_area" style="display:none;" 
  data-ad-unit    = "DAN-1hrlykohv7gpu" 
  data-ad-width   = "320" 
