@@ -3,34 +3,35 @@
 
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-165052706-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165052706-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-165052706-1');
-</script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-165052706-1');
+    </script>
 
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
-    
-    
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Matchceleb.com</title>
@@ -50,7 +51,7 @@
 </head>
 
 <body>
-    
+
     <script>
         window.dataLayer = window.dataLayer || [];
 
@@ -78,7 +79,7 @@
                                 <li>
                                     <a href="index.html">HOME</a>
                                 </li>
-                              
+
                                 <li>
                                     <a href="woman.html">WOMAN</a>
                                 </li>
@@ -94,617 +95,746 @@
             <div class="container text-center">
                 <div class="wrapper wow fadeInUp delay-05s">
                     <!--<h2 class="top-title">Web Design & Development</h2>-->
-                    <h3 class="title">WOMAN</h3>
+                    <h3 class="title">You look like </h3>
                     <!-- <h4 class="sub-title">We Create amazing designs</h4-->
- <!-- NAV SECTION END-->
+                    <!-- NAV SECTION END-->
 
-        <script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-        <div class="mt-3 container file-upload">
-            <div class="image-upload-wrap">
-                <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
-                <div class="drag-text">
-                    <img src="img/upload.svg" class="mt-5 pt-5 upload">
-                    <h3 class="mb-5 pb-5 pt-4  upload-text">DRAG AND DROP YOUR PHOTO FILE OR CLICK THE BUTTON!</h3>
-                </div>
-            </div>
-            <div class="file-upload-content">
-                <img class="file-upload-image" id="face-image" src="#" alt="your image" />
+                    <script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+                    <div class="mt-3 container file-upload">
+                        <div class="image-upload-wrap">
+                            <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
+                            <div class="drag-text">
+                                <img src="img/upload.svg" class="mt-5 pt-5 upload">
+                                <h3 class="mb-5 pb-5 pt-4  upload-text">DRAG AND DROP YOUR PHOTO FILE OR CLICK THE BUTTON!</h3>
+                            </div>
+                        </div>
+                        <div class="file-upload-content">
+                            <img class="file-upload-image" id="face-image" src="#" alt="your image" />
 
-                <div id="loading" class="animated bounce">
-                    <div class="spinner-border" role="status">
-                        <span class="sr-only">Loading...</span>
+                            <div id="loading" class="animated bounce">
+                                <div class="spinner-border" role="status">
+                                    <span class="sr-only">Loading...</span>
+                                </div>
+                                <p class="text-center">AI IS SEARCHING THE MAGE FILE</p>
+                            </div>
+                            <p class="result-message"></p>
+                            <div id="label-container" class="d-flex flex-column justify-content-around"></div>
+
+                            <!-- Go to www.addthis.com/dashboard to customize your tools -->
+                            <div class="addthis_inline_share_toolbox"></div>
+
+                            <div class="pt-3 image-title-wrap">
+                                <button type="button p-2" class="try-again-btn" onclick="gaReload2();" data-toggle="modal" data-target="#adModal">
+                                    <span class="try-again-text">TRY AGAIN</span>
+                                </button>
+                            </div>
+                        </div>
                     </div>
-                    <p class="text-center">AI IS SEARCHING THE MAGE FILE</p>
-                </div>
-                <p class="result-message"></p>
-                <div id="label-container" class="d-flex flex-column justify-content-around"></div>
 
-                <!-- Go to www.addthis.com/dashboard to customize your tools -->
-                <div class="addthis_inline_share_toolbox"></div>
+                    <footer class="footer pt-5 container d-flex justify-content-center">
 
-                <div class="pt-3 image-title-wrap">
-                    <button type="button p-2" class="try-again-btn" onclick="gaReload2();" data-toggle="modal" data-target="#adModal">
-                        <span class="try-again-text">TRY AGAIN</span>
-                    </button>
-                </div>
-            </div>
-        </div>
+                    </footer>
 
-        <footer class="footer pt-5 container d-flex justify-content-center">
-
-        </footer>
-
-        <!-- Modal -->
-        <div class="modal fade" id="adModal" tabindex="-1" role="dialog" aria-labelledby="adModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="adModalLabel">(AD)광고 - 재시도를 한번 더 눌러주세요.</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="adModal" tabindex="-1" role="dialog" aria-labelledby="adModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="adModalLabel">(AD)광고 - 재시도를 한번 더 눌러주세요.</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body d-flex justify-content-center">
+                                    <ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-t89oh3sc0ew5" data-ad-width="300" data-ad-height="250"></ins>
+                                </div>
+                                <div class="modal-footer d-flex justify-content-center">
+                                    <button type="button p-2" class="try-again-btn" onclick="gaReload2();">
+                                        <span class="try-again-text">다른 사진으로 재시도</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="modal-body d-flex justify-content-center">
-                        <ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-t89oh3sc0ew5" data-ad-width="300" data-ad-height="250"></ins>
-                    </div>
-                    <div class="modal-footer d-flex justify-content-center">
-                        <button type="button p-2" class="try-again-btn" onclick="gaReload2();">
-                            <span class="try-again-text">다른 사진으로 재시도</span>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <script>
-            function gaReload1() {
-                gtag('event', '다른 사진으로 재시도 1차', {
-                    'event_category': '다른 사진으로 재시도'
-                });
-            }
+                    <script>
+                        function gaReload1() {
+                            gtag('event', '다른 사진으로 재시도 1차', {
+                                'event_category': '다른 사진으로 재시도'
+                            });
+                        }
 
-            function gaReload2() {
-                gtag('event', '다른 사진으로 재시도 2차', {
-                    'event_category': '다른 사진으로 재시도'
-                });
-                window.location.reload();
-            }
-        </script>
+                        function gaReload2() {
+                            gtag('event', '다른 사진으로 재시도 2차', {
+                                'event_category': '다른 사진으로 재시도'
+                            });
+                            window.location.reload();
+                        }
+                    </script>
 
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
-        <script>
-            function readURL(input) {
-                if (input.files && input.files[0]) {
-                    var reader = new FileReader();
-                    reader.onload = function(e) {
-                        $('.image-upload-wrap').hide();
-                        $('#loading').show();
-                        $('.file-upload-image').attr('src', e.target.result);
-                        $('.file-upload-content').show();
-                        $('.image-title').html(input.files[0].name);
-                    };
-                    reader.readAsDataURL(input.files[0]);
-                    init().then(function() {
-                        console.log("hello");
-                        predict();
-                        $('#loading').hide();
-                    });
-                } else {
-                    removeUpload();
-                }
-            }
+                    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+                    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+                    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+                    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+                    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
+                    <script>
+                        function readURL(input) {
+                            if (input.files && input.files[0]) {
+                                var reader = new FileReader();
+                                reader.onload = function(e) {
+                                    $('.image-upload-wrap').hide();
+                                    $('#loading').show();
+                                    $('.file-upload-image').attr('src', e.target.result);
+                                    $('.file-upload-content').show();
+                                    $('.image-title').html(input.files[0].name);
+                                };
+                                reader.readAsDataURL(input.files[0]);
+                                init().then(function() {
+                                    console.log("hello");
+                                    predict();
+                                    $('#loading').hide();
+                                });
+                            } else {
+                                removeUpload();
+                            }
+                        }
 
-            function removeUpload() {
-                $('.file-upload-input').replaceWith($('.file-upload-input').clone());
-                $('.file-upload-content').hide();
-                $('.image-upload-wrap').show();
-            }
-            $('.image-upload-wrap').bind('dragover', function() {
-                $('.image-upload-wrap').addClass('image-dropping');
-            });
-            $('.image-upload-wrap').bind('dragleave', function() {
-                $('.image-upload-wrap').removeClass('image-dropping');
-            });
-        </script>
-        <script type="text/javascript">
-            // More API functions here:
-            // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/image
-            // the link to your model provided by Teachable Machine export panel
-           const URL = "https://teachablemachine.withgoogle.com/models/Tb59E56FY/";
-            let model, webcam, labelContainer, maxPredictions;
-            // Load the image model and setup the webcam
-            async function init() {
-                const modelURL = URL + "model.json";
-                const metadataURL = URL + "metadata.json";
-                // load the model and metadata
-                // Refer to tmImage.loadFromFiles() in the API to support files from a file picker
-                // or files from your local hard drive
-                // Note: the pose library adds "tmImage" object to your window (window.tmImage)
-                model = await tmImage.load(modelURL, metadataURL);
-                maxPredictions = model.getTotalClasses();
-                labelContainer = document.getElementById("label-container");
-                for (let i = 0; i < maxPredictions; i++) { // and class labels
-                    labelContainer.appendChild(document.createElement("div"));
-                }
-            }
-            // run the webcam image through the image model
-            async function predict() {
-                // predict can take in an image, video or canvas html element
-                var image = document.getElementById("face-image")
-                const prediction = await model.predict(image, false);
-                prediction.sort((a, b) => parseFloat(b.probability) - parseFloat(a.probability));
-                console.log(prediction[0].className);
-                var resultMessege;
-                switch (prediction[0].className) {
-                    case "Class 1":
-                        resultMessege = "Meryl Streep"
-                        break;
-                    case "Class 2":
-                        resultMessege = "Cate Blanchett"
-                        break;
-                    case "Class 3":
-                        resultMessege = "Kate Winslet"
-                        break;
-                    case "Class 4":
-                        resultMessege = "Ingrid Bergman"
-                        break;
-                    case "Class 5":
-                        resultMessege = "Halle Berry"
-                        break;
-                    case "Class 6":
-                        resultMessege = "Julia Roberts"
-                        break;
-                    case "Class 7":
-                        resultMessege = "Jodie Foster"
-                        break;
-                    case "Class 8":
-                        resultMessege = "Diane Keaton"
-                        break;
-                    case "Class 9":
-                        resultMessege = "Julianne Moore"
-                        break;
-                    case "Class 10":
-                        resultMessege = "Angelina Jolie"
-                        break;
-                    case "Class 11":
-                        resultMessege = "Natalie Portman"
-                        break;
-                    case "Class 12":
-                        resultMessege = "Audrey Hepburn"
-                        break;
-                    case "Class 13":
-                        resultMessege = "Sandra Bullock"
-                        break;
-                    case "Class 14":
-                        resultMessege = "Emma Thompson"
-                        break;
-                    case "Class 15":
-                        resultMessege = "Michelle Pfeiffer"
-                        break;
-                    case "Class 16":
-                        resultMessege = "Nicole Kidman"
-                        break;
-                    case "Class 17":
-                        resultMessege = "Salma Hayek"
-                        break;
-                    case "Class 18":
-                        resultMessege = "Sigourney Weaver"
-                        break;
-                    case "Class 19":
-                        resultMessege = "Lucy Liu"
-                        break;
-                    case "Class 20":
-                        resultMessege = "Amy Adams"
-                        break;
-                    case "Class 21":
-                        resultMessege = "Sharon Stone"
-                        break;
-                    case "Class 22":
-                        resultMessege = "Demi Moore"
-                        break;
-                    case "Class 23":
-                        resultMessege = "Anne Hathaway"
-                        break;
-                    case "Class 24":
-                        resultMessege = "Vivian Lee"
-                        break;
-                    case "Class 25":
-                        resultMessege = "Winona Ryder"
-                        break;
-                    case "Class 26":
-                        resultMessege = "Kathleen Turner"
-                        break;
-                    case "Class 27":
-                        resultMessege = "Uma Thurman"
-                        break;
-                    case "Class 28":
-                        resultMessege = "Rene Russo"
-                        break;
-                    case "Class 29":
-                        resultMessege = "Whoopi Goldberg"
-                        break;
-                    case "Class 30":
-                        resultMessege = "Annette Bening"
-                        break;
-                    case "Class 31":
-                        resultMessege = "Jennifer Lawrence"
-                        break;
-                    case "Class 32":
-                        resultMessege = "Gwyneth Paltrow"
-                        break;
-                    case "Class 33":
-                        resultMessege = "Charlize Theron"
-                        break
-                    case "Class 34":
-                        resultMessege = "Debra Winger"
-                        break;
-                    case "Class 35":
-                        resultMessege = "Marion Cotillard"
-                        break;
-                    case "Class 36":
-                        resultMessege = "Christina Ricci"
-                        break;
-                    case "Class 37":
-                        resultMessege = "Daryl Hannah"
-                        break;
-                    case "Class 38":
-                        resultMessege = "Reese Witherspoon"
-                        break;
-                    case "Class 39":
-                        resultMessege = "Patricia Arquette"
-                        break;
-                    case "Class 40":
-                        resultMessege = "Kate Hudson"
-                        break;
-                    case "Class 41":
-                        resultMessege = "Cameron Diaz"
-                        break;
-                    case "Class 42":
-                        resultMessege = "Laura Linney"
-                        break;
-                    case "Class 43":
-                        resultMessege = "Gillian Anderson"
-                        break;
-                    case "Class 44":
-                        resultMessege = "Emma Watson"
-                        break;
-                    case "Class 45":
-                        resultMessege = "Meg Ryan"
-                        break;
-                    case "Class 46":
-                        resultMessege = "Chloë Grace Moretz"
-                        break;
-                    case "Class 47":
-                        resultMessege = "Anna Kendrick"
-                        break;
-                    case "Class 48":
-                        resultMessege = "Emily Watson"
-                        break;
-                    case "Class 49":
-                        resultMessege = "Keira Knightley"
-                        break;
-                    case "Class 50":
-                        resultMessege = "Alexis Thorpe"
-                        break;
-                    case "Class 51":
-                        resultMessege = "찔레꽃"
-                        break;
-                    case "Class 52":
-                        resultMessege = "우산나물"
-                        break;
-                    case "Class 53":
-                        resultMessege = "굉이밥"
-                        break;
-                    case "Class 54":
-                        resultMessege = "광대수염"
-                        break;
-                    case "Class 55":
-                        resultMessege = "삿갓나물"
-                        break;
-                    case "Class 56":
-                        resultMessege = "골무꽃"
-                        break;
-                    case "Class 57":
-                        resultMessege = "갈퀴현호색"
-                        break;
-                    case "Class 58":
-                        resultMessege = "동강할미꽃"
-                        break;
-                    case "Class 59":
-                        resultMessege = "쪽동백나무"
-                        break;
-                    case "Class 60":
-                        resultMessege = "파랭이꽃"
-                        break;
-                    case "Class 61":
-                        resultMessege = "제비꽃"
-                        break;
-                    case "Class 62":
-                        resultMessege = "붉은병꽃나무"
-                        break;
-                    case "Class 63":
-                        resultMessege = "흰노랑민들레"
-                        break;
-                    case "Class 64":
-                        resultMessege = "콩제비꽃"
-                        break;
-                    case "Class 65":
-                        resultMessege = "긴병꽃플"
-                        break;
-                    case "Class 66":
-                        resultMessege = "앵초"
-                        break;
-                    case "Class 67":
-                        resultMessege = "당개지치"
-                        break;
-                    case "Class 68":
-                        resultMessege = "노루발"
-                        break;
-                    case "Class 69":
-                        resultMessege = "산괭이눈"
-                        break;
-                    case "Class 70":
-                        resultMessege = "백화사설초"
-                        break;
-                    case "Class 71":
-                        resultMessege = "금븟꽃"
-                        break;
-                    case "Class 72":
-                        resultMessege = "꿩의바람꽃"
-                        break;
-                    case "Class 73":
-                        resultMessege = "복주머니란"
-                        break;
-                    case "Class 74":
-                        resultMessege = "벌깨덩굴"
-                        break;
-                    case "Class 75":
-                        resultMessege = "처녀치마"
-                        break;
-                    case "Class 76":
-                        resultMessege = "홀아비바람꽃"
-                        break;
-                    case "Class 77":
-                        resultMessege = "붉봄구슬봉이"
-                        break;
-                    case "Class 78":
-                        resultMessege = "양지꽃"
-                        break;
-                    case "Class 79":
-                        resultMessege = "타래븟꽃"
-                        break;
-                    case "Class 80":
-                        resultMessege = "금창초"
-                        break;
-                    case "Class 81":
-                        resultMessege = "동의나물"
-                        break;
-                    case "Class 82":
-                        resultMessege = "때죽나무"
-                        break;
-                    case "Class 83":
-                        resultMessege = "금난초"
-                        break;
-                    case "Class 84":
-                        resultMessege = "지치"
-                        break;
-                    case "Class 85":
-                        resultMessege = "청미래덩굴"
-                        break;
-                    case "Class 86":
-                        resultMessege = "구슬붕이"
-                        break;
-                    case "Class 87":
-                        resultMessege = "지칭개"
-                        break;
-                    case "Class 88":
-                        resultMessege = "개족도리풀"
-                        break;
-                    case "Class 89":
-                        resultMessege = "민백미꽃"
-                        break;
-                    case "Class 90":
-                        resultMessege = "백작약"
-                        break;
-                    case "Class 91":
-                        resultMessege = "히어리"
-                        break;
-                    case "Class 92":
-                        resultMessege = "설앵초"
-                        break;
-                    case "Class 93":
-                        resultMessege = "힐미꽃"
-                        break;
-                    case "Class 94":
-                        resultMessege = "옥녀꽃대"
-                        break;
-                    case "Class 95":
-                        resultMessege = "참조팝나무"
-                        break;
-                    case "Class 96":
-                        resultMessege = "돌양지꽃"
-                        break;
-                    case "Class 97":
-                        resultMessege = "참꽃마리"
-                        break;
-                    case "Class 98":
-                        resultMessege = "족도리풀"
-                        break;
-                    case "Class 99":
-                        resultMessege = "애기나리"
-                        break;
-                    case "Class 100":
-                        resultMessege = "개구리자리"
-                        break;
-                    case "Class 101":
-                        resultMessege = "진달래"
-                        break;
-                    case "Class 102":
-                        resultMessege = "연영초"
-                        break;
-                    case "Class 103":
-                        resultMessege = "조릿대"
-                        break;
-                    case "Class 104":
-                        resultMessege = "노랑제비꽃"
-                        break;
-                    case "Class 105":
-                        resultMessege = "골담초"
-                        break;
-                    case "Class 106":
-                        resultMessege = "자주괴불주머니"
-                        break;
-                    case "Class 107":
-                        resultMessege = "산괴불주머니"
-                        break;
-                    case "Class 108":
-                        resultMessege = "태백제비꽃"
-                        break;
-                    case "Class 109":
-                        resultMessege = "흰괭이눈"
-                        break;
-                    case "Class 110":
-                        resultMessege = "큰구슬붕이"
-                        break;
-                    case "Class 111":
-                        resultMessege = "은난초"
-                        break;
-                    case "Class 112":
-                        resultMessege = "벌노랑이"
-                        break;
-                    case "Class 113":
-                        resultMessege = "회리바람꽃"
-                        break;
-                    case "Class 114":
-                        resultMessege = "홀아비꽃대"
-                        break;
-                    case "Class 115":
-                        resultMessege = "감자난초"
-                        break;
-                    case "Class 116":
-                        resultMessege = "선밀나뮬"
-                        break;
-                    case "Class 117":
-                        resultMessege = "미나리냉이"
-                        break;
-                    case "Class 118":
-                        resultMessege = "고산구슬붕이"
-                        break;
-                    case "Class 119":
-                        resultMessege = "산민들레"
-                        break;
-                    case "Class 120":
-                        resultMessege = "부처손"
-                        break;
-                    case "Class 121":
-                        resultMessege = "뻐꾹채"
-                        break;
-                    case "Class 122":
-                        resultMessege = "큰괭이밥"
-                        break;
-                    case "Class 123":
-                        resultMessege = "등대풀"
-                        break;
-                    case "Class 124":
-                        resultMessege = "꿩의다리아재비"
-                        break;
-                    case "Class 125":
-                        resultMessege = "민주바람꽃"
-                        break;
-                    case "Class 126":
-                        resultMessege = "나도개감채"
-                        break;
-                    case "Class 127":
-                        resultMessege = "개사상자"
-                        break
-                    case "Class 128":
-                        resultMessege = "덩굴개별꽃"
-                        break;
-                    case "Class 129":
-                        resultMessege = "산자고"
-                        break;
-                    case "Class 130":
-                        resultMessege = "백선"
-                        break;
-                    case "Class 131":
-                        resultMessege = "고란초"
-                        break;
-                    case "Class 132":
-                        resultMessege = "뱀까마중"
-                        break;
-                    case "Class 133":
-                        resultMessege = "자란초"
-                        break;
-                    case "Class 134":
-                        resultMessege = "구변산바람초"
-                        break;
-                    case "Class 135":
-                        resultMessege = "미치광이풀"
-                        break;
-                    case "Class 136":
-                        resultMessege = "삼지닥나무"
-                        break;
-                    case "Class 137":
-                        resultMessege = "모데미풀"
-                        break;
-                    case "Class 138":
-                        resultMessege = "졸방제비꽃"
-                        break;
-                    case "Class 139":
-                        resultMessege = "솜방망이"
-                        break;
-                    case "Class 140":
-                        resultMessege = "반디지치"
-                        break;
-                    case "Class 141":
-                        resultMessege = "쥐오줌풀"
-                        break;
-                    case "Class 142":
-                        resultMessege = "윤판나물"
-                        break;
-                    case "Class 143":
-                        resultMessege = "애기괭이밥"
-                        break
-                    case "Class 144":
-                        resultMessege = "애기괭이밥"
-                        break;
-                    case "Class 145":
-                        resultMessege = "새끼노루귀"
-                        break;
-                    case "Class 146":
-                        resultMessege = "세잎양지꽃"
-                        break;
-                    case "Class 147":
-                        resultMessege = "애기풀"
-                        break;
-                    case "Class 148":
-                        resultMessege = "개감수"
-                        break;
-                    case "Class 149":
-                        resultMessege = "얼레지"
-                        break;
-                    case "Class 150":
-                        resultMessege = "노루삼"
-                        break;
-                    case "Class 151":
-                        resultMessege = "갑산제비꽃"
-                        break;
-                    case "Class 152":
-                        resultMessege = "땅비싸리"
-                        break;
-                    default:
-                        resultMessege = "알수없음"
-                        break;
-                }
-                $('.result-message').html(resultMessege);
-            }
-        </script>
+                        function removeUpload() {
+                            $('.file-upload-input').replaceWith($('.file-upload-input').clone());
+                            $('.file-upload-content').hide();
+                            $('.image-upload-wrap').show();
+                        }
+                        $('.image-upload-wrap').bind('dragover', function() {
+                            $('.image-upload-wrap').addClass('image-dropping');
+                        });
+                        $('.image-upload-wrap').bind('dragleave', function() {
+                            $('.image-upload-wrap').removeClass('image-dropping');
+                        });
+                    </script>
+                    <script type="text/javascript">
+                        // More API functions here:
+                        // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/image
+                        // the link to your model provided by Teachable Machine export panel
+                        const URL = "https://teachablemachine.withgoogle.com/models/Tb59E56FY/";
+                        let model, webcam, labelContainer, maxPredictions;
+                        // Load the image model and setup the webcam
+                        async function init() {
+                            const modelURL = URL + "model.json";
+                            const metadataURL = URL + "metadata.json";
+                            // load the model and metadata
+                            // Refer to tmImage.loadFromFiles() in the API to support files from a file picker
+                            // or files from your local hard drive
+                            // Note: the pose library adds "tmImage" object to your window (window.tmImage)
+                            model = await tmImage.load(modelURL, metadataURL);
+                            maxPredictions = model.getTotalClasses();
+                            labelContainer = document.getElementById("label-container");
+                            for (let i = 0; i < maxPredictions; i++) { // and class labels
+                                labelContainer.appendChild(document.createElement("div"));
+                            }
+                        }
+                        // run the webcam image through the image model
+                        async function predict() {
+                            // predict can take in an image, video or canvas html element
+                            var image = document.getElementById("face-image")
+                            const prediction = await model.predict(image, false);
+                            prediction.sort((a, b) => parseFloat(b.probability) - parseFloat(a.probability));
+                            console.log(prediction[0].className);
+                            var resultMessege;
+                            switch (prediction[0].className) {
+                                case "Class 1":
+                                    resultMessege = "Meryl Streep"
+                                    break;
+                                case "Class 2":
+                                    resultMessege = "Cate Blanchett"
+                                    break;
+                                case "Class 3":
+                                    resultMessege = "Kate Winslet"
+                                    break;
+                                case "Class 4":
+                                    resultMessege = "Ingrid Bergman"
+                                    break;
+                                case "Class 5":
+                                    resultMessege = "Halle Berry"
+                                    break;
+                                case "Class 6":
+                                    resultMessege = "Julia Roberts"
+                                    break;
+                                case "Class 7":
+                                    resultMessege = "Jodie Foster"
+                                    break;
+                                case "Class 8":
+                                    resultMessege = "Diane Keaton"
+                                    break;
+                                case "Class 9":
+                                    resultMessege = "Julianne Moore"
+                                    break;
+                                case "Class 10":
+                                    resultMessege = "Angelina Jolie"
+                                    break;
+                                case "Class 11":
+                                    resultMessege = "Natalie Portman"
+                                    break;
+                                case "Class 12":
+                                    resultMessege = "Audrey Hepburn"
+                                    break;
+                                case "Class 13":
+                                    resultMessege = "Sandra Bullock"
+                                    break;
+                                case "Class 14":
+                                    resultMessege = "Emma Thompson"
+                                    break;
+                                case "Class 15":
+                                    resultMessege = "Michelle Pfeiffer"
+                                    break;
+                                case "Class 16":
+                                    resultMessege = "Nicole Kidman"
+                                    break;
+                                case "Class 17":
+                                    resultMessege = "Salma Hayek"
+                                    break;
+                                case "Class 18":
+                                    resultMessege = "Sigourney Weaver"
+                                    break;
+                                case "Class 19":
+                                    resultMessege = "Lucy Liu"
+                                    break;
+                                case "Class 20":
+                                    resultMessege = "Amy Adams"
+                                    break;
+                                case "Class 21":
+                                    resultMessege = "Sharon Stone"
+                                    break;
+                                case "Class 22":
+                                    resultMessege = "Demi Moore"
+                                    break;
+                                case "Class 23":
+                                    resultMessege = "Anne Hathaway"
+                                    break;
+                                case "Class 24":
+                                    resultMessege = "Vivian Lee"
+                                    break;
+                                case "Class 25":
+                                    resultMessege = "Winona Ryder"
+                                    break;
+                                case "Class 26":
+                                    resultMessege = "Kathleen Turner"
+                                    break;
+                                case "Class 27":
+                                    resultMessege = "Uma Thurman"
+                                    break;
+                                case "Class 28":
+                                    resultMessege = "Rene Russo"
+                                    break;
+                                case "Class 29":
+                                    resultMessege = "Whoopi Goldberg"
+                                    break;
+                                case "Class 30":
+                                    resultMessege = "Annette Bening"
+                                    break;
+                                case "Class 31":
+                                    resultMessege = "Jennifer Lawrence"
+                                    break;
+                                case "Class 32":
+                                    resultMessege = "Gwyneth Paltrow"
+                                    break;
+                                case "Class 33":
+                                    resultMessege = "Charlize Theron"
+                                    break
+                                case "Class 34":
+                                    resultMessege = "Debra Winger"
+                                    break;
+                                case "Class 35":
+                                    resultMessege = "Marion Cotillard"
+                                    break;
+                                case "Class 36":
+                                    resultMessege = "Christina Ricci"
+                                    break;
+                                case "Class 37":
+                                    resultMessege = "Daryl Hannah"
+                                    break;
+                                case "Class 38":
+                                    resultMessege = "Reese Witherspoon"
+                                    break;
+                                case "Class 39":
+                                    resultMessege = "Patricia Arquette"
+                                    break;
+                                case "Class 40":
+                                    resultMessege = "Kate Hudson"
+                                    break;
+                                case "Class 41":
+                                    resultMessege = "Cameron Diaz"
+                                    break;
+                                case "Class 42":
+                                    resultMessege = "Laura Linney"
+                                    break;
+                                case "Class 43":
+                                    resultMessege = "Gillian Anderson"
+                                    break;
+                                case "Class 44":
+                                    resultMessege = "Emma Watson"
+                                    break;
+                                case "Class 45":
+                                    resultMessege = "Meg Ryan"
+                                    break;
+                                case "Class 46":
+                                    resultMessege = "Chloë Grace Moretz"
+                                    break;
+                                case "Class 47":
+                                    resultMessege = "Anna Kendrick"
+                                    break;
+                                case "Class 48":
+                                    resultMessege = "Emily Watson"
+                                    break;
+                                case "Class 49":
+                                    resultMessege = "Keira Knightley"
+                                    break;
+                                case "Class 50":
+                                    resultMessege = "Alexis Thorpe"
+                                    break;
+                                case "Class 51":
+                                    resultMessege = "Scarlett Johansson"
+                                    break;
+                                case "Class 52":
+                                    resultMessege = "Dakota Fanning"
+                                    break;
+                                case "Class 53":
+                                    resultMessege = "Jennifer Aniston"
+                                    break;
+                                case "Class 54":
+                                    resultMessege = "Rachel McAdams"
+                                    break;
+                                case "Class 55":
+                                    resultMessege = "Jennifer Connelly"
+                                    break;
+                                case "Class 56":
+                                    resultMessege = "Geena Davis"
+                                    break;
+                                case "Class 57":
+                                    resultMessege = "Carey Mulligan"
+                                    break;
+                                case "Class 58":
+                                    resultMessege = "Mila Kunis"
+                                    break;
+                                case "Class 59":
+                                    resultMessege = "Amanda Seyfried"
+                                    break;
+                                case "Class 60":
+                                    resultMessege = "Jennifer Lopez"
+                                    break;
+                                case "Class 61":
+                                    resultMessege = "Neve Campbell"
+                                    break;
+                                case "Class 62":
+                                    resultMessege = "Fairuza Balk"
+                                    break;
+                                case "Class 63":
+                                    resultMessege = "Jessica Alba"
+                                    break;
+                                case "Class 64":
+                                    resultMessege = "Kristen Stewart"
+                                    break;
+                                case "Class 65":
+                                    resultMessege = "Rooney Mara"
+                                    break;
+                                case "Class 66":
+                                    resultMessege = "Emma Stone"
+                                    break;
+                                case "Class 67":
+                                    resultMessege = "Kirsten Dunst"
+                                    break;
+                                case "Class 68":
+                                    resultMessege = "Kate Beckinsale"
+                                    break;
+                                case "Class 69":
+                                    resultMessege = "Zooey Deschanel"
+                                    break;
+                                case "Class 70":
+                                    resultMessege = "Michelle Williams "
+                                    break;
+                                case "Class 71":
+                                    resultMessege = "Selena Gomez"
+                                    break;
+                                case "Class 72":
+                                    resultMessege = "Rachel Weisz"
+                                    break;
+                                case "Class 73":
+                                    resultMessege = "Kristen Bell"
+                                    break;
+                                case "Class 74":
+                                    resultMessege = "Katherine Heigl"
+                                    break;
+                                case "Class 75":
+                                    resultMessege = "Liv Tyler"
+                                    break;
+                                case "Class 76":
+                                    resultMessege = "Viola Davis"
+                                    break;
+                                case "Class 77":
+                                    resultMessege = "Jessica Chastain"
+                                    break;
+                                case "Class 78":
+                                    resultMessege = "Megan Fox"
+                                    break;
+                                case "Class 79":
+                                    resultMessege = "Robin Wright"
+                                    break;
+                                case "Class 80":
+                                    resultMessege = "Eliza Dushku"
+                                    break;
+                                case "Class 81":
+                                    resultMessege = "Leighton Meester"
+                                    break;
+                                case "Class 82":
+                                    resultMessege = "Grace Kelly"
+                                    break;
+                                case "Class 83":
+                                    resultMessege = "llen Page"
+                                    break;
+                                case "Class 84":
+                                    resultMessege = "Vera Farmiga"
+                                    break;
+                                case "Class 85":
+                                    resultMessege = "Octavia Spencer"
+                                    break;
+                                case "Class 86":
+                                    resultMessege = "Melissa Leo"
+                                    break;
+                                case "Class 87":
+                                    resultMessege = "Jennifer Hudson"
+                                    break;
+                                case "Class 88":
+                                    resultMessege = "Renée Zellweger"
+                                    break;
+                                case "Class 89":
+                                    resultMessege = "Anna Paquin"
+                                    break;
+                                case "Class 90":
+                                    resultMessege = "Maggie Gyllenhaal"
+                                    break;
+                                case "Class 91":
+                                    resultMessege = "Katie Holmes"
+                                    break;
+                                case "Class 92":
+                                    resultMessege = "Thora Birch"
+                                    break;
+                                case "Class 93":
+                                    resultMessege = "Rosario Dawson"
+                                    break;
+                                case "Class 94":
+                                    resultMessege = "Alicia Vikander"
+                                    break;
+                                case "Class 95":
+                                    resultMessege = "Mia Wasikowska"
+                                    break;
+                                case "Class 96":
+                                    resultMessege = "Abigail Breslin"
+                                    break;
+                                case "Class 97":
+                                    resultMessege = "Melissa McCarthy"
+                                    break;
+                                case "Class 98":
+                                    resultMessege = "Tina Fey"
+                                    break;
+                                case "Class 99":
+                                    resultMessege = "Zoe Saldana"
+                                    break;
+                                case "Class 100":
+                                    resultMessege = "Elisabeth Moss"
+                                    break;
+                                case "Class 101":
+                                    resultMessege = "Adrianne Palicki"
+                                    break;
+                                case "Class 102":
+                                    resultMessege = "Jennifer Garner"
+                                    break;
+                                case "Class 103":
+                                    resultMessege = "Kristen Wiig"
+                                    break;
+                                case "Class 104":
+                                    resultMessege = "Sally Hawkins"
+                                    break;
+                                case "Class 105":
+                                    resultMessege = "Kaley Cuoco"
+                                    break;
+                                case "Class 106":
+                                    resultMessege = "Naomi Watts"
+                                    break;
+                                case "Class 107":
+                                    resultMessege = "Isla Fisher"
+                                    break;
+                                case "Class 108":
+                                    resultMessege = "Emma Roberts"
+                                    break;
+                                case "Class 109":
+                                    resultMessege = "Amber Heard"
+                                    break;
+                                case "Class 110":
+                                    resultMessege = "Teresa Palmer"
+                                    break;
+                                case "Class 111":
+                                    resultMessege = "Elizabeth Banks"
+                                    break;
+                                case "Class 112":
+                                    resultMessege = "Natalie Dormer"
+                                    break;
+                                case "Class 113":
+                                    resultMessege = "Brittany Snow"
+                                    break;
+                                case "Class 114":
+                                    resultMessege = "Kate Mara"
+                                    break;
+                                case "Class 115":
+                                    resultMessege = "Julianne Hough"
+                                    break;
+                                case "Class 116":
+                                    resultMessege = "Lily Collins"
+                                    break;
+                                case "Class 117":
+                                    resultMessege = "Alice Eve"
+                                    break;
+                                case "Class 118":
+                                    resultMessege = "Jamie Chung"
+                                    break;
+                                case "Class 119":
+                                    resultMessege = "Blake Lively"
+                                    break;
+                                case "Class 120":
+                                    resultMessege = "Maggie Grace"
+                                    break;
+                                case "Class 121":
+                                    resultMessege = "Jessica Biel"
+                                    break;
+                                case "Class 122":
+                                    resultMessege = "Eva Green"
+                                    break;
+                                case "Class 123":
+                                    resultMessege = "Kat Dennings"
+                                    break;
+                                case "Class 124":
+                                    resultMessege = "Priyanka Chopra"
+                                    break;
+                                case "Class 125":
+                                    resultMessege = "Jessica Lucas"
+                                    break;
+                                case "Class 126":
+                                    resultMessege = "Elizabeth Olsen"
+                                    break;
+                                case "Class 127":
+                                    resultMessege = "Nastassja Kinski"
+                                    break
+                                case "Class 128":
+                                    resultMessege = "덩Drew Barrymore"
+                                    break;
+                                case "Class 129":
+                                    resultMessege = "Mélanie Laurent"
+                                    break;
+                                case "Class 130":
+                                    resultMessege = "Kerry Washington"
+                                    break;
+                                case "Class 131":
+                                    resultMessege = "Carrie-Anne Moss"
+                                    break;
+                                case "Class 132":
+                                    resultMessege = "Catalina Sandino Moreno"
+                                    break;
+                                case "Class 133":
+                                    resultMessege = "Samantha Morton"
+                                    break;
+                                case "Class 134":
+                                    resultMessege = "Amy Ryan"
+                                    break;
+                                case "Class 135":
+                                    resultMessege = "Lindsay Lohan"
+                                    break;
+                                case "Class 136":
+                                    resultMessege = "Michelle Trachtenberg"
+                                    break;
+                                case "Class 137":
+                                    resultMessege = "Chloë Sevigny"
+                                    break;
+                                case "Class 138":
+                                    resultMessege = "Margot Robbie"
+                                    break;
+                                case "Class 139":
+                                    resultMessege = "Dakota Johnson"
+                                    break;
+                                case "Class 140":
+                                    resultMessege = "Julie Delpy"
+                                    break;
+                                case "Class 141":
+                                    resultMessege = "Linda Hamilton"
+                                    break;
+                                case "Class 142":
+                                    resultMessege = "Emily Browning"
+                                    break;
+                                case "Class 143":
+                                    resultMessege = "Juliette Lewis"
+                                    break
+                                case "Class 144":
+                                    resultMessege = "Sarah Jessica Parker"
+                                    break;
+                                case "Class 145":
+                                    resultMessege = "Miley Cyrus"
+                                    break;
+                                case "Class 146":
+                                    resultMessege = "Keri Russell"
+                                    break;
+                                case "Class 147":
+                                    resultMessege = "Sophia Loren"
+                                    break;
+                                case "Class 148":
+                                    resultMessege = "Neve Campbell"
+                                    break;
+                                case "Class 149":
+                                    resultMessege = "Sarah Polley"
+                                    break;
+                                case "Class 150":
+                                    resultMessege = "Jada Pinkett Smith"
+                                    break;
+                                case "Class 151":
+                                    resultMessege = "Anna Faris"
+                                    break;
+                                case "Class 152":
+                                    resultMessege = "Leslie Mann"
+                                    break;
+                                case "Class 153":
+                                    resultMessege = "Thandie Newton"
+                                    break;
+                                case "Class 154":
+                                    resultMessege = "Mindy Kaling"
+                                    break;
+                                case "Class 155":
+                                    resultMessege = "Amy Poehler"
+                                    break;
+                                case "Class 156":
+                                    resultMessege = "Amanda Peet"
+                                    break;
+                                case "Class 157":
+                                    resultMessege = "Julia Stiles"
+                                    break;
+                                case "Class 158":
+                                    resultMessege = "Eva Mendes"
+                                    break;
+                                case "Class 159":
+                                    resultMessege = "Emily Blunt"
+                                    break;
+                                case "Class 160":
+                                    resultMessege = "Rose Byrne"
+                                    break;
+                                case "Class 161":
+                                    resultMessege = "Ashley Judd"
+                                    break;
+                                case "Class 162":
+                                    resultMessege = "Emilia Clarke"
+                                    break;
+                                case "Class 163":
+                                    resultMessege = "Christina Applegate"
+                                    break;
+                                case "Class 164":
+                                    resultMessege = "Nia Long"
+                                    break;
+                                case "Class 165":
+                                    resultMessege = "SFelicity Jones"
+                                    break;
+                                case "Class 166":
+                                    resultMessege = "Alexandra Daddario"
+                                    break;
+                                case "Class 167":
+                                    resultMessege = "Jena Malone"
+                                    break;
+                                case "Class 168":
+                                    resultMessege = "Michelle Rodriguez"
+                                    break;
+                                case "Class 169":
+                                    resultMessege = "Sarah Michelle Gellar"
+                                    break;
+                                case "Class 170":
+                                    resultMessege = "Sandra Oh"
+                                    break;
+                                case "Class 171":
+                                    resultMessege = "Beyoncé"
+                                    break;
+                                case "Class 172":
+                                    resultMessege = "Rebecca Hall"
+                                    break;
+                                case "Class 173":
+                                    resultMessege = "Piper Perabo"
+                                    break;
+                                case "Class 174":
+                                    resultMessege = "Paula Patton"
+                                    break;
+                                case "Class 175":
+                                    resultMessege = "Michelle Monaghan"
+                                    break;
+                                case "Class 176":
+                                    resultMessege = "Claire Danes"
+                                    break;
+                                case "Class 177":
+                                    resultMessege = "Kate Bosworth"
+                                    break;
+                                case "Class 178":
+                                    resultMessege = "Evan Rachel Wood"
+                                    break;
+                                case "Class 179":
+                                    resultMessege = "Amanda Bynes"
+                                    break;
+                                case "Class 180":
+                                    resultMessege = "Brit Marling"
+                                    break;
+                                case "Class 181":
+                                    resultMessege = "Sofía Vergara"
+                                    break;
+                                case "Class 182":
+                                    resultMessege = "Mandy Moore"
+                                    break;
+                                case "Class 183":
+                                    resultMessege = "Virginia Madsen"
+                                    break;
+                                case "Class 184":
+                                    resultMessege = "Freida Pinto"
+                                    break;
+                                case "Class 185":
+                                    resultMessege = "Hilary Duff"
+                                    break
+                                case "Class 186":
+                                    resultMessege = "Mary Elizabeth Winstead"
+                                    break;
+                                case "Class 187":
+                                    resultMessege = "Sophie Marceau"
+                                    break;
+                                case "Class 188":
+                                    resultMessege = "Claire Foy"
+                                    break;
+                                case "Class 189":
+                                    resultMessege = "Rashida Jones"
+                                    break;
+                                case "Class 190":
+                                    resultMessege = "Alicia Silverstone"
+                                    break;
+                                case "Class 191":
+                                    resultMessege = "Jennifer Love Hewitt"
+                                    break;
+                                case "Class 192":
+                                    resultMessege = "Emmy Rossum"
+                                    break;
+                                case "Class 193":
+                                    resultMessege = "Joey King"
+                                    break;
+                                case "Class 194":
+                                    resultMessege = "Christine Taylor"
+                                    break;
+                                case "Class 195":
+                                    resultMessege = "Abbie Cornish"
+                                    break;
+                                default:
+                                    resultMessege = "알수없음"
+                                    break;
+                            }
+                            $('.result-message').html(resultMessege);
+                        }
+                    </script>
 
-        <!-- FEATURE SECTION END-->
-        <!--
+                    <!-- FEATURE SECTION END-->
+                    <!--
    <section id="team-sec">
         <div class="container">
             <div class="row pad-btm">
@@ -745,8 +875,8 @@
         </div>
 
     </section>-->
-        <!-- TEAM SECTION END-->
-        <!--  <section id="contact-sec">
+                    <!-- TEAM SECTION END-->
+                    <!--  <section id="contact-sec">
         <div class="container">
             <div class="row pad-btm">
                 <div class="col-lg-8 col-md-8 col-sm-8 col-lg-offset-2 col-md-offset-2 col-sm-offset-2 col-xs-12">
@@ -791,8 +921,8 @@
 
     </section> 
     <!-- CONTACT SECTION END-->
-        <!-- AD BANNER-->
-        <!--<div id="coupang" class="container d-flex justify-content-center">
+                    <!-- AD BANNER-->
+                    <!--<div id="coupang" class="container d-flex justify-content-center">
         <script src="https://ads-partners.coupang.com/g.js"></script>
         <script>
             new PartnersCoupang.G({
@@ -801,7 +931,7 @@
             });
         </script>
     </div> -->
-        <!-- <div id="kakao" class="ad-banner">
+                    <!-- <div id="kakao" class="ad-banner">
     <ins class="kakao_ad_area" style="display:none;" 
  data-ad-unit    = "DAN-1hrlykohv7gpu" 
  data-ad-width   = "320" 
@@ -814,8 +944,8 @@
             <a href="http://nowkorea.com" style="font-size: 14px; color: #fff" target="_blank">Inspired by Jocoding</a>
             <!-- NAV SECTION END-->
 
-        <!-- FOOTER SECTION END-->
-        <!--CORE SCRIPTS-->
+                    <!-- FOOTER SECTION END-->
+                    <!--CORE SCRIPTS-->
                 </div>
             </div>
         </div>
@@ -823,8 +953,7 @@
 
     <body>
 
-      
-<!-- <div class="ad-banner">
+        <!-- <div class="ad-banner">
             <ins class="kakao_ad_area" style="display:none;" 
  data-ad-unit    = "DAN-1hrlykohv7gpu" 
  data-ad-width   = "320" 
