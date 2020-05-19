@@ -216,7 +216,7 @@
             // More API functions here:
             // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/image
             // the link to your model provided by Teachable Machine export panel
-            const URL = "https://teachablemachine.withgoogle.com/models/2AnkPY1zb/";
+            const URL = "https://teachablemachine.withgoogle.com/models/Tb59E56FY/";
             let model, webcam, labelContainer, maxPredictions;
             // Load the image model and setup the webcam
             async function init() {
@@ -242,475 +242,598 @@
                 console.log(prediction[0].className);
                 var resultMessege;
                 switch (prediction[0].className) {
-                    case "Class 1":
-                        resultMessege = "Robert De Niro"
-                        break;
-                    case "Class 2":
-                        resultMessege = "Jack Nicholson"
-                        break;
-                    case "Class 3":
-                        resultMessege = "Marlon Brando"
-                        break;
-                    case "Class 4":
-                        resultMessege = "Denzel Washington"
-                        break;
-                    case "Class 5":
-                        resultMessege = "Morgan Freemann"
-                        break;
-                    case "Class 6":
-                        resultMessege = "Johnny Depp"
-                        break;
-                    case "Class 7":
-                        resultMessege = "Shah Rukh Khan"
-                        break;
-                    case "Class 8":
-                        resultMessege = "Leonardo DiCaprio"
-                        break;
-                    case "Class 9":
-                        resultMessege = "Anthony Hopkins"
-                        break;
-                    case "Class 10":
-                        resultMessege = "Al Pacino"
-                        break;
-                    case "Class 11":
-                        resultMessege = "Tom Hanks"
-                        break;
-                    case "Class 12":
-                        resultMessege = "Will Smith"
-                        break;
-                    case "Class 13":
-                        resultMessege = "Harrison Ford"
-                        break;
-                    case "Class 14":
-                        resultMessege = "Forest Whitaker"
-                        break;
-                    case "Class 15":
-                        resultMessege = "Tom Cruise"
-                        break;
-                    case "Class 16":
-                        resultMessege = "Samuel L. Jackson"
-                        break;
-                    case "Class 17":
-                        resultMessege = "Robin Williams"
-                        break;
-                    case "Class 18":
-                        resultMessege = "Antonio Banderas"
-                        break;
-                    case "Class 19":
-                        resultMessege = "Eddie Murphy "
-                        break;
-                    case "Class 20":
-                        resultMessege = "Tommy Lee Jones"
-                        break;
-                    case "Class 21":
-                        resultMessege = "Robert Redford"
-                        break;
-                    case "Class 22":
-                        resultMessege = "George Clooney"
-                        break;
-                    case "Class 23":
-                        resultMessege = "Gene Hackman"
-                        break;
-                    case "Class 24":
-                        resultMessege = "Bruce Willis"
-                        break;
-                    case "Class 25":
-                        resultMessege = "Sean Connery"
-                        break;
-                    case "Class 26":
-                        resultMessege = "Russell Crowe"
-                        break;
-                    case "Class 27":
-                        resultMessege = "Nicolas Cage"
-                        break;
-                    case "Class 28":
-                        resultMessege = "Brad Pitt"
-                        break;
-                    case "Class 29":
-                        resultMessege = "Joe Pesci"
-                        break;
-                    case "Class 30":
-                        resultMessege = "Kevin Costner"
-                        break;
-                    case "Class 31":
-                        resultMessege = "Donald Sutherland"
-                        break;
-                    case "Class 32":
-                        resultMessege = "Clint Eastwood"
-                        break;
-                    case "Class 33":
-                        resultMessege = "Michael Douglas"
-                        break
-                    case "Class 34":
-                        resultMessege = "Robert Downey Jr"
-                        break;
-                    case "Class 35":
-                        resultMessege = "Mel Gibson"
-                        break;
-                    case "Class 36":
-                        resultMessege = "Jim Carrey"
-                        break;
-                    case "Class 37":
-                        resultMessege = "Mark Wahlberg"
-                        break;
-                    case "Class 38":
-                        resultMessege = "Ben Kingsley"
-                        break;
-                    case "Class 39":
-                        resultMessege = "Tim Robbins"
-                        break;
-                    case "Class 40":
-                        resultMessege = "Arnold Schwarzenegger"
-                        break;
-                    case "Class 41":
-                        resultMessege = "Sylvester Stallone"
-                        break;
-                    case "Class 42":
-                        resultMessege = "Alec Baldwin"
-                        break;
-                    case "Class 43":
-                        resultMessege = "Kevin Bacon"
-                        break;
-                    case "Class 44":
-                        resultMessege = "Michael Caine"
-                        break;
-                    case "Class 45":
-                        resultMessege = "Patrick Swayze"
-                        break;
-                    case "Class 46":
-                        resultMessege = "Colin Farrell"
-                        break;
-                    case "Class 47":
-                        resultMessege = "Jared Leto"
-                        break;
-                    case "Class 48":
-                        resultMessege = "Bradley Cooper"
-                        break;
-                    case "Class 49":
-                        resultMessege = "Gary Oldman"
-                        break;
-                    case "Class 50":
-                        resultMessege = "Jude Law"
-                        break;
-                    case "Class 51":
-                        resultMessege = "Liam Neeson"
-                        break;
-                    case "Class 52":
-                        resultMessege = "Matt Damon"
-                        break;
-                    case "Class 53":
-                        resultMessege = "Kurt Russell"
-                        break;
-                    case "Class 54":
-                        resultMessege = "Ryan Gosling"
-                        break;
-                    case "Class 55":
-                        resultMessege = "Colin Firth"
-                        break;
-                    case "Class 56":
-                        resultMessege = "Tom Hardy"
-                        break;
-                    case "Class 57":
-                        resultMessege = "CCliff Robertson"
-                        break;
-                    case "Class 58":
-                        resultMessege = "Benedict Cumberbatch"
-                        break;
-                    case "Class 59":
-                        resultMessege = "Chris Hemsworth"
-                        break;
-                    case "Class 60":
-                        resultMessege = "Christian Bale"
-                        break;
-                    case "Class 61":
-                        resultMessege = "Ethan Hawke"
-                        break;
-                    case "Class 62":
-                        resultMessege = "Sean Penn"
-                        break;
-                    case "Class 63":
-                        resultMessege = "Paul Lukas"
-                        break;
-                    case "Class 64":
-                        resultMessege = "Jeff Goldblum"
-                        break;
-                    case "Class 65":
-                        resultMessege = "Hugh Grant"
-                        break;
-                    case "Class 66":
-                        resultMessege = "Keanu Reeves"
-                        break;
-                    case "Class 67":
-                        resultMessege = "Channing Tatum"
-                        break;
-                    case "Class 68":
-                        resultMessege = "Hugh Jackman"
-                        break;
-                    case "Class 69":
-                        resultMessege = "Dwayne Johnson"
-                        break;
-                    case "Class 70":
-                        resultMessege = "Adam Sandler"
-                        break;
-                    case "Class 71":
-                        resultMessege = "Daniel Radcliffe"
-                        break;
-                    case "Class 72":
-                        resultMessege = "Daniel Craig"
-                        break;
-                    case "Class 73":
-                        resultMessege = "Henry Cavill"
-                        break;
-                    case "Class 74":
-                        resultMessege = "Vin Diesel"
-                        break;
-                    case "Class 75":
-                        resultMessege = "Ben Affleck"
-                        break;
-                    case "Class 76":
-                        resultMessege = "Chris Pine"
-                        break;
-                    case "Class 77":
-                        resultMessege = "Owen Wilson"
-                        break;
-                    case "Class 78":
-                        resultMessege = "Mickey Rourke"
-                        break;
-                    case "Class 79":
-                        resultMessege = "Andrew Garfield"
-                        break;
-                    case "Class 80":
-                        resultMessege = "Jeremy Renner"
-                        break;
-                    case "Class 81":
-                        resultMessege = "Chris Evans"
-                        break;
-                    case "Class 82":
-                        resultMessege = "Ryan Reynolds"
-                        break;
-                    case "Class 83":
-                        resultMessege = "James Franco"
-                        break;
-                    case "Class 84":
-                        resultMessege = "Paul Rudd"
-                        break;
-                    case "Class 85":
-                        resultMessege = "Jason Segel"
-                        break;
-                    case "Class 86":
-                        resultMessege = "Jason Statham"
-                        break;
-                    case "Class 87":
-                        resultMessege = "Jesse Eisenberg"
-                        break;
-                    case "Class 88":
-                        resultMessege = "Owen Wilson"
-                        break;
-                    case "Class 89":
-                        resultMessege = "Jon Heder"
-                        break;
-                    case "Class 90":
-                        resultMessege = "Jason Bateman"
-                        break;
-                    case "Class 91":
-                        resultMessege = "Tyler Perry"
-                        break;
-                    case "Class 92":
-                        resultMessege = "Liam Hemsworth"
-                        break;
-                    case "Class 93":
-                        resultMessege = "Robert Pattinson"
-                        break;
-                    case "Class 94":
-                        resultMessege = "Nicholas Hoult"
-                        break;
-                    case "Class 95":
-                        resultMessege = "Gerard Butler"
-                        break;
-                    case "Class 96":
-                        resultMessege = "Karl Urban"
-                        break;
-                    case "Class 97":
-                        resultMessege = "Logan Lerman"
-                        break;
-                    case "Class 98":
-                        resultMessege = "Dave Franco"
-                        break;
-                    case "Class 99":
-                        resultMessege = "Taylor Kitsch"
-                        break;
-                    case "Class 100":
-                        resultMessege = "Tom Hiddleston"
-                        break;
-                    case "Class 101":
-                        resultMessege = "Edward Norton"
-                        break;
-                    case "Class 102":
-                        resultMessege = "Guy Pearce"
-                        break;
-                    case "Class 103":
-                        resultMessege = "Terrence Howard"
-                        break;
-                    case "Class 104":
-                        resultMessege = "John Cusack"
-                        break;
-                    case "Class 105":
-                        resultMessege = "Oscar Isaac"
-                        break;
-                    case "Class 106":
-                        resultMessege = "Chuck Norris"
-                        break;
-                    case "Class 107":
-                        resultMessege = "Barry Pepper"
-                        break;
-                    case "Class 108":
-                        resultMessege = "Steve Buscemi"
-                        break;
-                    case "Class 109":
-                        resultMessege = "Jon Heder"
-                        break;
-                    case "Class 110":
-                        resultMessege = "Miles Teller"
-                        break;
-                    case "Class 111":
-                        resultMessege = "Matthew McConaughey"
-                        break;
-                    case "Class 112":
-                        resultMessege = "Paddy Considine"
-                        break;
-                    case "Class 113":
-                        resultMessege = "Ryan Phillippe"
-                        break;
-                    case "Class 114":
-                        resultMessege = "Freddie Highmore"
-                        break;
-                    case "Class 115":
-                        resultMessege = "Michael J. Fox"
-                        break;
-                    case "Class 116":
-                        resultMessege = "John Travolta"
-                        break;
-                    case "Class 117":
-                        resultMessege = "Jean-Claude Van Damme"
-                        break;
-                    case "Class 118":
-                        resultMessege = "Sam Rockwell"
-                        break;
-                    case "Class 119":
-                        resultMessege = "Simon Pegg"
-                        break;
-                    case "Class 120":
-                        resultMessege = "Michael Shannon"
-                        break;
-                    case "Class 121":
-                        resultMessege = "Ewan McGregor"
-                        break;
-                    case "Class 122":
-                        resultMessege = "Josh Brolin"
-                        break;
-                    case "Class 123":
-                        resultMessege = "Matt Dillon"
-                        break;
-                    case "Class 124":
-                        resultMessege = "Richard Gere"
-                        break;
-                    case "Class 125":
-                        resultMessege = "Jon Hamm"
-                        break;
-                    case "Class 126":
-                        resultMessege = "Chris Rock"
-                        break;
-                    case "Class 127":
-                        resultMessege = "Charlie Sheen"
-                        break
-                    case "Class 128":
-                        resultMessege = "Andy Garcia"
-                        break;
-                    case "Class 129":
-                        resultMessege = "Orlando Bloom"
-                        break;
-                    case "Class 130":
-                        resultMessege = "James Marsden"
-                        break;
-                    case "Class 131":
-                        resultMessege = "Giovanni Ribisi"
-                        break;
-                    case "Class 132":
-                        resultMessege = "Billy Burke"
-                        break;
-                    case "Class 133":
-                        resultMessege = "Tobey Maguire"
-                        break;
-                    case "Class 134":
-                        resultMessege = "Justin Long"
-                        break;
-                    case "Class 135":
-                        resultMessege = "Jack Black"
-                        break;
-                    case "Class 136":
-                        resultMessege = "Nick Frost"
-                        break;
-                    case "Class 137":
-                        resultMessege = "Pierce Brosnan"
-                        break;
-                    case "Class 138":
-                        resultMessege = "Chadwick Boseman"
-                        break;
-                    case "Class 139":
-                        resultMessege = "Martin Lawrence"
-                        break;
-                    case "Class 140":
-                        resultMessege = "Jeffrey Wright"
-                        break;
-                    case "Class 141":
-                        resultMessege = "Aaron Eckhart"
-                        break;
-                    case "Class 142":
-                        resultMessege = "Jack Davenport"
-                        break;
-                    case "Class 143":
-                        resultMessege = "Seth Green"
-                        break
-                    case "Class 144":
-                        resultMessege = "Ashton Kutcher"
-                        break;
-                    case "Class 145":
-                        resultMessege = "Michael Lerner"
-                        break;
-                    case "Class 146":
-                        resultMessege = "Chris Tucker"
-                        break;
-                    case "Class 147":
-                        resultMessege = "Chris O'Donnell"
-                        break;
-                    case "Class 148":
-                        resultMessege = "Macaulay Culkin"
-                        break;
-                    case "Class 149":
-                        resultMessege = "Garrett Hedlund"
-                        break;
-                    case "Class 150":
-                        resultMessege = "Craig Robinson"
-                        break;
-                    case "Class 151":
-                        resultMessege = "Andrew Lincoln"
-                        break;
-                    case "Class 152":
-                        resultMessege = "Michael Cera"
-                        break;
-                        case "Class 153":
-                        resultMessege = "Jamie Bell"
-                        break;
-                    case "Class 154":
-                        resultMessege = "Wesley Snipes"
-                        break;
-                    default:
-                        resultMessege = "알수없음"
-                        break;
-                }
-                $('.result-message').html(resultMessege);
-            } 
-        </script>
+                   case "Class 1":
+                                    resultMessege = "Meryl Streep"
+                                    break;
+                                case "Class 2":
+                                    resultMessege = "Cate Blanchett"
+                                    break;
+                                case "Class 3":
+                                    resultMessege = "Kate Winslet"
+                                    break;
+                                case "Class 4":
+                                    resultMessege = "Ingrid Bergman"
+                                    break;
+                                case "Class 5":
+                                    resultMessege = "Halle Berry"
+                                    break;
+                                case "Class 6":
+                                    resultMessege = "Julia Roberts"
+                                    break;
+                                case "Class 7":
+                                    resultMessege = "Jodie Foster"
+                                    break;
+                                case "Class 8":
+                                    resultMessege = "Diane Keaton"
+                                    break;
+                                case "Class 9":
+                                    resultMessege = "Julianne Moore"
+                                    break;
+                                case "Class 10":
+                                    resultMessege = "Angelina Jolie"
+                                    break;
+                                case "Class 11":
+                                    resultMessege = "Natalie Portman"
+                                    break;
+                                case "Class 12":
+                                    resultMessege = "Audrey Hepburn"
+                                    break;
+                                case "Class 13":
+                                    resultMessege = "Sandra Bullock"
+                                    break;
+                                case "Class 14":
+                                    resultMessege = "Emma Thompson"
+                                    break;
+                                case "Class 15":
+                                    resultMessege = "Michelle Pfeiffer"
+                                    break;
+                                case "Class 16":
+                                    resultMessege = "Nicole Kidman"
+                                    break;
+                                case "Class 17":
+                                    resultMessege = "Salma Hayek"
+                                    break;
+                                case "Class 18":
+                                    resultMessege = "Sigourney Weaver"
+                                    break;
+                                case "Class 19":
+                                    resultMessege = "Lucy Liu"
+                                    break;
+                                case "Class 20":
+                                    resultMessege = "Amy Adams"
+                                    break;
+                                case "Class 21":
+                                    resultMessege = "Sharon Stone"
+                                    break;
+                                case "Class 22":
+                                    resultMessege = "Demi Moore"
+                                    break;
+                                case "Class 23":
+                                    resultMessege = "Anne Hathaway"
+                                    break;
+                                case "Class 24":
+                                    resultMessege = "Vivian Lee"
+                                    break;
+                                case "Class 25":
+                                    resultMessege = "Winona Ryder"
+                                    break;
+                                case "Class 26":
+                                    resultMessege = "Kathleen Turner"
+                                    break;
+                                case "Class 27":
+                                    resultMessege = "Uma Thurman"
+                                    break;
+                                case "Class 28":
+                                    resultMessege = "Rene Russo"
+                                    break;
+                                case "Class 29":
+                                    resultMessege = "Whoopi Goldberg"
+                                    break;
+                                case "Class 30":
+                                    resultMessege = "Annette Bening"
+                                    break;
+                                case "Class 31":
+                                    resultMessege = "Jennifer Lawrence"
+                                    break;
+                                case "Class 32":
+                                    resultMessege = "Gwyneth Paltrow"
+                                    break;
+                                case "Class 33":
+                                    resultMessege = "Charlize Theron"
+                                    break
+                                case "Class 34":
+                                    resultMessege = "Debra Winger"
+                                    break;
+                                case "Class 35":
+                                    resultMessege = "Marion Cotillard"
+                                    break;
+                                case "Class 36":
+                                    resultMessege = "Christina Ricci"
+                                    break;
+                                case "Class 37":
+                                    resultMessege = "Daryl Hannah"
+                                    break;
+                                case "Class 38":
+                                    resultMessege = "Reese Witherspoon"
+                                    break;
+                                case "Class 39":
+                                    resultMessege = "Patricia Arquette"
+                                    break;
+                                case "Class 40":
+                                    resultMessege = "Kate Hudson"
+                                    break;
+                                case "Class 41":
+                                    resultMessege = "Cameron Diaz"
+                                    break;
+                                case "Class 42":
+                                    resultMessege = "Laura Linney"
+                                    break;
+                                case "Class 43":
+                                    resultMessege = "Gillian Anderson"
+                                    break;
+                                case "Class 44":
+                                    resultMessege = "Emma Watson"
+                                    break;
+                                case "Class 45":
+                                    resultMessege = "Meg Ryan"
+                                    break;
+                                case "Class 46":
+                                    resultMessege = "Chloë Grace Moretz"
+                                    break;
+                                case "Class 47":
+                                    resultMessege = "Anna Kendrick"
+                                    break;
+                                case "Class 48":
+                                    resultMessege = "Emily Watson"
+                                    break;
+                                case "Class 49":
+                                    resultMessege = "Keira Knightley"
+                                    break;
+                                case "Class 50":
+                                    resultMessege = "Alexis Thorpe"
+                                    break;
+                                case "Class 51":
+                                    resultMessege = "Scarlett Johansson"
+                                    break;
+                                case "Class 52":
+                                    resultMessege = "Dakota Fanning"
+                                    break;
+                                case "Class 53":
+                                    resultMessege = "Jennifer Aniston"
+                                    break;
+                                case "Class 54":
+                                    resultMessege = "Rachel McAdams"
+                                    break;
+                                case "Class 55":
+                                    resultMessege = "Jennifer Connelly"
+                                    break;
+                                case "Class 56":
+                                    resultMessege = "Geena Davis"
+                                    break;
+                                case "Class 57":
+                                    resultMessege = "Carey Mulligan"
+                                    break;
+                                case "Class 58":
+                                    resultMessege = "Mila Kunis"
+                                    break;
+                                case "Class 59":
+                                    resultMessege = "Amanda Seyfried"
+                                    break;
+                                case "Class 60":
+                                    resultMessege = "Jennifer Lopez"
+                                    break;
+                                case "Class 61":
+                                    resultMessege = "Neve Campbell"
+                                    break;
+                                case "Class 62":
+                                    resultMessege = "Fairuza Balk"
+                                    break;
+                                case "Class 63":
+                                    resultMessege = "Jessica Alba"
+                                    break;
+                                case "Class 64":
+                                    resultMessege = "Kristen Stewart"
+                                    break;
+                                case "Class 65":
+                                    resultMessege = "Rooney Mara"
+                                    break;
+                                case "Class 66":
+                                    resultMessege = "Emma Stone"
+                                    break;
+                                case "Class 67":
+                                    resultMessege = "Kirsten Dunst"
+                                    break;
+                                case "Class 68":
+                                    resultMessege = "Kate Beckinsale"
+                                    break;
+                                case "Class 69":
+                                    resultMessege = "Zooey Deschanel"
+                                    break;
+                                case "Class 70":
+                                    resultMessege = "Michelle Williams "
+                                    break;
+                                case "Class 71":
+                                    resultMessege = "Selena Gomez"
+                                    break;
+                                case "Class 72":
+                                    resultMessege = "Rachel Weisz"
+                                    break;
+                                case "Class 73":
+                                    resultMessege = "Kristen Bell"
+                                    break;
+                                case "Class 74":
+                                    resultMessege = "Katherine Heigl"
+                                    break;
+                                case "Class 75":
+                                    resultMessege = "Liv Tyler"
+                                    break;
+                                case "Class 76":
+                                    resultMessege = "Viola Davis"
+                                    break;
+                                case "Class 77":
+                                    resultMessege = "Jessica Chastain"
+                                    break;
+                                case "Class 78":
+                                    resultMessege = "Megan Fox"
+                                    break;
+                                case "Class 79":
+                                    resultMessege = "Robin Wright"
+                                    break;
+                                case "Class 80":
+                                    resultMessege = "Eliza Dushku"
+                                    break;
+                                case "Class 81":
+                                    resultMessege = "Leighton Meester"
+                                    break;
+                                case "Class 82":
+                                    resultMessege = "Grace Kelly"
+                                    break;
+                                case "Class 83":
+                                    resultMessege = "llen Page"
+                                    break;
+                                case "Class 84":
+                                    resultMessege = "Vera Farmiga"
+                                    break;
+                                case "Class 85":
+                                    resultMessege = "Octavia Spencer"
+                                    break;
+                                case "Class 86":
+                                    resultMessege = "Melissa Leo"
+                                    break;
+                                case "Class 87":
+                                    resultMessege = "Jennifer Hudson"
+                                    break;
+                                case "Class 88":
+                                    resultMessege = "Renée Zellweger"
+                                    break;
+                                case "Class 89":
+                                    resultMessege = "Anna Paquin"
+                                    break;
+                                case "Class 90":
+                                    resultMessege = "Maggie Gyllenhaal"
+                                    break;
+                                case "Class 91":
+                                    resultMessege = "Katie Holmes"
+                                    break;
+                                case "Class 92":
+                                    resultMessege = "Thora Birch"
+                                    break;
+                                case "Class 93":
+                                    resultMessege = "Rosario Dawson"
+                                    break;
+                                case "Class 94":
+                                    resultMessege = "Alicia Vikander"
+                                    break;
+                                case "Class 95":
+                                    resultMessege = "Mia Wasikowska"
+                                    break;
+                                case "Class 96":
+                                    resultMessege = "Abigail Breslin"
+                                    break;
+                                case "Class 97":
+                                    resultMessege = "Melissa McCarthy"
+                                    break;
+                                case "Class 98":
+                                    resultMessege = "Tina Fey"
+                                    break;
+                                case "Class 99":
+                                    resultMessege = "Zoe Saldana"
+                                    break;
+                                case "Class 100":
+                                    resultMessege = "Elisabeth Moss"
+                                    break;
+                                case "Class 101":
+                                    resultMessege = "Adrianne Palicki"
+                                    break;
+                                case "Class 102":
+                                    resultMessege = "Jennifer Garner"
+                                    break;
+                                case "Class 103":
+                                    resultMessege = "Kristen Wiig"
+                                    break;
+                                case "Class 104":
+                                    resultMessege = "Sally Hawkins"
+                                    break;
+                                case "Class 105":
+                                    resultMessege = "Kaley Cuoco"
+                                    break;
+                                case "Class 106":
+                                    resultMessege = "Naomi Watts"
+                                    break;
+                                case "Class 107":
+                                    resultMessege = "Isla Fisher"
+                                    break;
+                                case "Class 108":
+                                    resultMessege = "Emma Roberts"
+                                    break;
+                                case "Class 109":
+                                    resultMessege = "Amber Heard"
+                                    break;
+                                case "Class 110":
+                                    resultMessege = "Teresa Palmer"
+                                    break;
+                                case "Class 111":
+                                    resultMessege = "Elizabeth Banks"
+                                    break;
+                                case "Class 112":
+                                    resultMessege = "Natalie Dormer"
+                                    break;
+                                case "Class 113":
+                                    resultMessege = "Brittany Snow"
+                                    break;
+                                case "Class 114":
+                                    resultMessege = "Kate Mara"
+                                    break;
+                                case "Class 115":
+                                    resultMessege = "Julianne Hough"
+                                    break;
+                                case "Class 116":
+                                    resultMessege = "Lily Collins"
+                                    break;
+                                case "Class 117":
+                                    resultMessege = "Alice Eve"
+                                    break;
+                                case "Class 118":
+                                    resultMessege = "Jamie Chung"
+                                    break;
+                                case "Class 119":
+                                    resultMessege = "Blake Lively"
+                                    break;
+                                case "Class 120":
+                                    resultMessege = "Maggie Grace"
+                                    break;
+                                case "Class 121":
+                                    resultMessege = "Jessica Biel"
+                                    break;
+                                case "Class 122":
+                                    resultMessege = "Eva Green"
+                                    break;
+                                case "Class 123":
+                                    resultMessege = "Kat Dennings"
+                                    break;
+                                case "Class 124":
+                                    resultMessege = "Priyanka Chopra"
+                                    break;
+                                case "Class 125":
+                                    resultMessege = "Jessica Lucas"
+                                    break;
+                                case "Class 126":
+                                    resultMessege = "Elizabeth Olsen"
+                                    break;
+                                case "Class 127":
+                                    resultMessege = "Nastassja Kinski"
+                                    break
+                                case "Class 128":
+                                    resultMessege = "덩Drew Barrymore"
+                                    break;
+                                case "Class 129":
+                                    resultMessege = "Mélanie Laurent"
+                                    break;
+                                case "Class 130":
+                                    resultMessege = "Kerry Washington"
+                                    break;
+                                case "Class 131":
+                                    resultMessege = "Carrie-Anne Moss"
+                                    break;
+                                case "Class 132":
+                                    resultMessege = "Catalina Sandino Moreno"
+                                    break;
+                                case "Class 133":
+                                    resultMessege = "Samantha Morton"
+                                    break;
+                                case "Class 134":
+                                    resultMessege = "Amy Ryan"
+                                    break;
+                                case "Class 135":
+                                    resultMessege = "Lindsay Lohan"
+                                    break;
+                                case "Class 136":
+                                    resultMessege = "Michelle Trachtenberg"
+                                    break;
+                                case "Class 137":
+                                    resultMessege = "Chloë Sevigny"
+                                    break;
+                                case "Class 138":
+                                    resultMessege = "Margot Robbie"
+                                    break;
+                                case "Class 139":
+                                    resultMessege = "Dakota Johnson"
+                                    break;
+                                case "Class 140":
+                                    resultMessege = "Julie Delpy"
+                                    break;
+                                case "Class 141":
+                                    resultMessege = "Linda Hamilton"
+                                    break;
+                                case "Class 142":
+                                    resultMessege = "Emily Browning"
+                                    break;
+                                case "Class 143":
+                                    resultMessege = "Juliette Lewis"
+                                    break
+                                case "Class 144":
+                                    resultMessege = "Sarah Jessica Parker"
+                                    break;
+                                case "Class 145":
+                                    resultMessege = "Miley Cyrus"
+                                    break;
+                                case "Class 146":
+                                    resultMessege = "Keri Russell"
+                                    break;
+                                case "Class 147":
+                                    resultMessege = "Sophia Loren"
+                                    break;
+                                case "Class 148":
+                                    resultMessege = "Neve Campbell"
+                                    break;
+                                case "Class 149":
+                                    resultMessege = "Sarah Polley"
+                                    break;
+                                case "Class 150":
+                                    resultMessege = "Jada Pinkett Smith"
+                                    break;
+                                case "Class 151":
+                                    resultMessege = "Anna Faris"
+                                    break;
+                                case "Class 152":
+                                    resultMessege = "Leslie Mann"
+                                    break;
+                                case "Class 153":
+                                    resultMessege = "Thandie Newton"
+                                    break;
+                                case "Class 154":
+                                    resultMessege = "Mindy Kaling"
+                                    break;
+                                case "Class 155":
+                                    resultMessege = "Amy Poehler"
+                                    break;
+                                case "Class 156":
+                                    resultMessege = "Amanda Peet"
+                                    break;
+                                case "Class 157":
+                                    resultMessege = "Julia Stiles"
+                                    break;
+                                case "Class 158":
+                                    resultMessege = "Eva Mendes"
+                                    break;
+                                case "Class 159":
+                                    resultMessege = "Emily Blunt"
+                                    break;
+                                case "Class 160":
+                                    resultMessege = "Rose Byrne"
+                                    break;
+                                case "Class 161":
+                                    resultMessege = "Ashley Judd"
+                                    break;
+                                case "Class 162":
+                                    resultMessege = "Emilia Clarke"
+                                    break;
+                                case "Class 163":
+                                    resultMessege = "Christina Applegate"
+                                    break;
+                                case "Class 164":
+                                    resultMessege = "Nia Long"
+                                    break;
+                                case "Class 165":
+                                    resultMessege = "SFelicity Jones"
+                                    break;
+                                case "Class 166":
+                                    resultMessege = "Alexandra Daddario"
+                                    break;
+                                case "Class 167":
+                                    resultMessege = "Jena Malone"
+                                    break;
+                                case "Class 168":
+                                    resultMessege = "Michelle Rodriguez"
+                                    break;
+                                case "Class 169":
+                                    resultMessege = "Sarah Michelle Gellar"
+                                    break;
+                                case "Class 170":
+                                    resultMessege = "Sandra Oh"
+                                    break;
+                                case "Class 171":
+                                    resultMessege = "Beyoncé"
+                                    break;
+                                case "Class 172":
+                                    resultMessege = "Rebecca Hall"
+                                    break;
+                                case "Class 173":
+                                    resultMessege = "Piper Perabo"
+                                    break;
+                                case "Class 174":
+                                    resultMessege = "Paula Patton"
+                                    break;
+                                case "Class 175":
+                                    resultMessege = "Michelle Monaghan"
+                                    break;
+                                case "Class 176":
+                                    resultMessege = "Claire Danes"
+                                    break;
+                                case "Class 177":
+                                    resultMessege = "Kate Bosworth"
+                                    break;
+                                case "Class 178":
+                                    resultMessege = "Evan Rachel Wood"
+                                    break;
+                                case "Class 179":
+                                    resultMessege = "Amanda Bynes"
+                                    break;
+                                case "Class 180":
+                                    resultMessege = "Brit Marling"
+                                    break;
+                                case "Class 181":
+                                    resultMessege = "Sofía Vergara"
+                                    break;
+                                case "Class 182":
+                                    resultMessege = "Mandy Moore"
+                                    break;
+                                case "Class 183":
+                                    resultMessege = "Virginia Madsen"
+                                    break;
+                                case "Class 184":
+                                    resultMessege = "Freida Pinto"
+                                    break;
+                                case "Class 185":
+                                    resultMessege = "Hilary Duff"
+                                    break
+                                case "Class 186":
+                                    resultMessege = "Mary Elizabeth Winstead"
+                                    break;
+                                case "Class 187":
+                                    resultMessege = "Sophie Marceau"
+                                    break;
+                                case "Class 188":
+                                    resultMessege = "Claire Foy"
+                                    break;
+                                case "Class 189":
+                                    resultMessege = "Rashida Jones"
+                                    break;
+                                case "Class 190":
+                                    resultMessege = "Alicia Silverstone"
+                                    break;
+                                case "Class 191":
+                                    resultMessege = "Jennifer Love Hewitt"
+                                    break;
+                                case "Class 192":
+                                    resultMessege = "Emmy Rossum"
+                                    break;
+                                case "Class 193":
+                                    resultMessege = "Joey King"
+                                    break;
+                                case "Class 194":
+                                    resultMessege = "Christine Taylor"
+                                    break;
+                                case "Class 195":
+                                    resultMessege = "Abbie Cornish"
+                                    break;
+                                default:
+                                    resultMessege = "알수없음"
+                                    break;
+                            }
+                            $('.result-message').html(resultMessege);
+                        }
+                    </script>
  <br/>
    <div class="ad-banner">
          <ins class="kakao_ad_area" style="display:none;" 
